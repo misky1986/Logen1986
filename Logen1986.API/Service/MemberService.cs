@@ -30,7 +30,6 @@ namespace Logen1986.API.Service
 
         public Member GetById(int id)
         {
-            Console.WriteLine("Hello World!");
             return Members.First(_ => _.Id == id);
         }
     }
