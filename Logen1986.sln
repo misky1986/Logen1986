@@ -7,10 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logen1986.API", "Logen1986.
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E0B48615-5CD5-4C19-8312-D3E49A025F7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logen1986.Tests", "..\Logen1986.Tests\Logen1986.Tests.csproj", "{4B475695-68D7-4905-9DA1-C35C158A7F0B}"
-	ProjectSection(ProjectDependencies) = postProject
-		{CB6CC5B3-D19D-455A-9198-534B1BDA46EF} = {CB6CC5B3-D19D-455A-9198-534B1BDA46EF}
-	EndProjectSection
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logen1986.Tests", "Logen1986.Tests\Logen1986.Tests.csproj", "{B86AC3A9-DBE9-4901-A26C-C52EBD896DF2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,10 +23,10 @@ Global
 		{E0B48615-5CD5-4C19-8312-D3E49A025F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E0B48615-5CD5-4C19-8312-D3E49A025F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E0B48615-5CD5-4C19-8312-D3E49A025F7D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{4B475695-68D7-4905-9DA1-C35C158A7F0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4B475695-68D7-4905-9DA1-C35C158A7F0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4B475695-68D7-4905-9DA1-C35C158A7F0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4B475695-68D7-4905-9DA1-C35C158A7F0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86AC3A9-DBE9-4901-A26C-C52EBD896DF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86AC3A9-DBE9-4901-A26C-C52EBD896DF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86AC3A9-DBE9-4901-A26C-C52EBD896DF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86AC3A9-DBE9-4901-A26C-C52EBD896DF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
