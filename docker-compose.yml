@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  logen1986.api:
+    image: logen1986.api
+    build:
+      context: .
+      dockerfile: Logen1986.API/Dockerfile
